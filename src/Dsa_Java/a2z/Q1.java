@@ -9,17 +9,16 @@ public class Q1 {
 
         int s=Integer.toString(num).length();
         System.out.println(s+"\n-------------");
-        m1();
+//        m1();
     }
-
-    public static void m1() {
-        int num = 456;
-        String s = String.valueOf(num);
-
-        for (int i = 0; i < s.length(); i++) {
-            System.out.println(s.charAt(i));
-        }
-
-    }
+//    public static void m1() {
+//        int num = 456;
+//        String s = String.valueOf(num);
+//
+//        for (int i = 0; i < s.length(); i++) {
+//            System.out.println(s.charAt(i));
+//        }
+//
+//    }
 
 }
