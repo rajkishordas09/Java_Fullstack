@@ -5,8 +5,6 @@ public class Q4 {
         System.out.println(m1(40, 96));
         System.out.println(m1(90, 27));
     }
-
-
     public static int m1(int a, int b) {
         int rem;
         while (b != 0) {
@@ -17,6 +15,7 @@ public class Q4 {
         return a;
     }
 }
+
 
 //Explanation:
 //        1. The program takes two integer inputs from the user.
