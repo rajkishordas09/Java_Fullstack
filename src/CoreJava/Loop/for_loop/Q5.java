@@ -9,17 +9,20 @@ public class Q5 {
         System.out.println("enter a num : ");
         int num = ac.nextInt();
         if(num < 2){
-            System.out.println("not a prime number");
+            System.out.println("number is not prime");
             return;
         }
+        boolean isPrime = true;
 //        for (int i = 2; i * i <= num; i++) also valid
         for(int i = 2; i <= num / 2; i++){
             if(num % i == 0) {
-                System.out.println("not a prime number ");
-                return;
+               isPrime = false;
+                break;
             }
 
         }
-        System.out.println("prime number ");
+        if (isPrime)
+            System.out.println("number is prime");
+        else System.out.println("number is not prime");
     }
 }
