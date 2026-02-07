@@ -14,9 +14,9 @@ public class Q6 {
                 sum += num % 10;
                 num /= 10;
             }
-            if(sum > 9){
+
                 num = sum ;
-            }
+
         }
         System.out.println("sum is : "+sum);
 
