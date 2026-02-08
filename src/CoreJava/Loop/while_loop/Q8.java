@@ -9,9 +9,18 @@ public class Q8 {
         System.out.println("enter a number : ");
         int num = ac.nextInt();
         int n = num;
+        int count = 0;
         int sum = 0;
+
+        while(n != 0){
+            count++;
+            n /=10;
+        }
+        int power = count;
+         n = num;
+
         while (n != 0){
-            sum += (int)Math.pow((n % 10), 3); // return double and store in int
+            sum += (int)Math.pow((n % 10),power); // return double and store in int
             n /= 10;
         }
         if(num == sum)
