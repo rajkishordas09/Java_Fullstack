@@ -16,11 +16,11 @@ public class Q8 {
             count++;
             n /=10;
         }
-        int power = count;
+
          n = num;
 
         while (n != 0){
-            sum += (int)Math.pow((n % 10),power); // return double and store in int
+            sum += (int)Math.pow((n % 10),count); // return double and store in int
             n /= 10;
         }
         if(num == sum)
