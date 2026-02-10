@@ -13,16 +13,16 @@ public class Q15 {
             for (int j = 1; j <= n; j++) {
                 if (i % 2 == 1) {
                     a++;
-                    System.out.print(a + " ");
+                    System.out.print(a + "\t");
                 }
                 else {
 
-                    System.out.print(a + " ");
+                    System.out.print(a + "\t");
                     a--;
                 }
             }
-            System.out.println();
             a += n;
+            System.out.println();
         }
 
     }
