@@ -1,7 +1,7 @@
 package Dsa_Java.Pattern_Printing;
 
 import java.util.Scanner;
-
+//hollow diamond with diagonal
 public class Q24 {
     public static void main(String[] args) {
         Scanner ac = new Scanner(System.in);
