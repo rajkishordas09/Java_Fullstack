@@ -19,7 +19,7 @@ public class Q9 {
 
     }
 }
-//
+
 //enter a value :
 //        5
 //        5 4 3 2 1
