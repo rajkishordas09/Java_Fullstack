@@ -2,6 +2,7 @@ package CoreJava.Loop.for_loop;
 
 import java.util.Scanner;
 
+
 //check prime number or not
 public class Q5 {
     public static void main(String[] args) {

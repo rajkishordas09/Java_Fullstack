@@ -9,10 +9,10 @@ public class Q9 {
         int n = ac.nextInt();
 
         for (int i = 1; i<= n ; i++){
-            int a = 5;
+
             for (int j = n; j >= i; j--){
-                System.out.print(a + " ");
-                a--;
+                System.out.print(j + " ");
+
             }
             System.out.println();
         }
