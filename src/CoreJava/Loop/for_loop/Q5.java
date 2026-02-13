@@ -27,3 +27,5 @@ public class Q5 {
         else System.out.println("number is not prime");
     }
 }
+
+
