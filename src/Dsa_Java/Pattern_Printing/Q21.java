@@ -31,6 +31,7 @@ public class Q21 {
     }
 }
 
+
 //enter a value :
 //        10
 //            *
