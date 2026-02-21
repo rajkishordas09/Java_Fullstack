@@ -4,6 +4,6 @@ package CoreJava.Declaration_and_Access_Modifier.pkg2;
     public static void main(String[] args) {
         B b=new B();
         b.m1();
-
+        B.m3();
     }
 }
