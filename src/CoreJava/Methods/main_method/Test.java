@@ -1,4 +1,4 @@
-package CoreJava.main_method;
+package CoreJava.Methods.main_method;
 
  class Test {
     public static void main(String[] args){
