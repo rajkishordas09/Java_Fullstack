@@ -1,7 +1,7 @@
-package CoreJava.Declaration_and_Access_Modifier.pkg3;
+package CoreJava.Import.pkg3;
 
 
- class Date {
+ public class Date {
     public static void main(String[] args) {
 
     }
