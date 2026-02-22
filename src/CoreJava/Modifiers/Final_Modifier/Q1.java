@@ -8,6 +8,7 @@ package CoreJava.Modifiers.Final_Modifier;
          System.out.println("hello");
      }
 }
+
 class A extends Q1{
     public static void main(String[] args) {
       m2();
