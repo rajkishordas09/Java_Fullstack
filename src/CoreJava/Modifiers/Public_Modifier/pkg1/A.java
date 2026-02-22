@@ -1,4 +1,4 @@
-package CoreJava.Declaration_and_Access_Modifier.pkg1;
+package CoreJava.Modifiers.Public_Modifier.pkg1;
 
 public class A {
  public void m1(){

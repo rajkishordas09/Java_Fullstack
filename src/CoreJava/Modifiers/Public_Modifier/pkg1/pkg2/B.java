@@ -1,6 +1,6 @@
-package CoreJava.Declaration_and_Access_Modifier.pkg2;
+package CoreJava.Modifiers.Public_Modifier.pkg1.pkg2;
 
-import CoreJava.Declaration_and_Access_Modifier.pkg1.A;
+import CoreJava.Modifiers.Public_Modifier.pkg1.A;
 
 
  class B {
