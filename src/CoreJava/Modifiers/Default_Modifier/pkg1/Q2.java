@@ -1,6 +1,6 @@
-package CoreJava.Methods.pkg1;
+package CoreJava.Modifiers.Default_Modifier.pkg1;
 
-//import static CoreJava.Methods.pkg1.Q1.m;
+//import static CoreJava.Methods.Default_Method.pkg1.Q1.m;
 
 class Q2 {
      public static void main(String[] args) {

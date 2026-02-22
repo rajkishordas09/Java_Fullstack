@@ -1,4 +1,4 @@
-package CoreJava.Methods.pkg1;
+package CoreJava.Modifiers.Default_Modifier.pkg1;
 
  class Q3 {
      void m1(){
