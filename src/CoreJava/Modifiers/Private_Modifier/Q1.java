@@ -5,7 +5,7 @@ package CoreJava.Modifiers.Private_Modifier;
         System.out.println("hii");
     }
 
-    final void m1(){
+    private void m1(){
         System.out.println("hiii");
     }
 
@@ -21,18 +21,12 @@ class P extends Q1{
     public static void main(String[] args) {
         P p = new P();
         p.m();
-        p.m1();
+//        p.m1(); // we cannt access outside of same class
 
         Q1 q = new Q1();
         q.m();
+//        q.m1();
 
     }
-
-
-    //cannt override as it is final
-//    void m1(){
-//        System.out.println("hello");
-//    }
-
 
 }
