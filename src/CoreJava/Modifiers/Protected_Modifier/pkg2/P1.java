@@ -13,6 +13,10 @@ class P1 extends Q1 {
 
         P1.m2();
 
+        Q1 a = new P1();
+//        a.m1();      //error
+        Q1.m2();
+
     }
 
 
