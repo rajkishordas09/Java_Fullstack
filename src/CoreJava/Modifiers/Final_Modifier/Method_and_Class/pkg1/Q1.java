@@ -1,7 +1,7 @@
-package CoreJava.Modifiers.Final_Modifier;
+package CoreJava.Modifiers.Final_Modifier.Method_and_Class.pkg1;
 
- class Q1 {
-    final void m1(){
+ public class Q1 {
+   public final void m1(){
          System.out.println("hii");
      }
     static void m2() {

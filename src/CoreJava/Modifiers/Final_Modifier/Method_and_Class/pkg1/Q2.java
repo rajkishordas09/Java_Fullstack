@@ -1,4 +1,4 @@
-package CoreJava.Modifiers.Final_Modifier;
+package CoreJava.Modifiers.Final_Modifier.Method_and_Class.pkg1;
 
 public final class Q2 {
     int a ;
@@ -11,6 +11,13 @@ public final class Q2 {
         q.a = 100;
         System.out.println(q.a);
     }
+
+    void m3(){
+        System.out.println("autometic final method");
+    }
+
+    Q1 q = new Q1();
+
 }
 
 //if a class final then we cannt create child class
