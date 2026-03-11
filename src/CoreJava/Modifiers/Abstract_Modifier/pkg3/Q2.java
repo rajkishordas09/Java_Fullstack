@@ -8,7 +8,7 @@ public class Q2 extends Q1{
     }
 
     @Override
-   public void m() {
+   protected void m() {
         System.out.println("hiii");
     }
 
