@@ -8,7 +8,8 @@ package CoreJava.Modifiers.Final_Modifier.Method_and_Class.pkg1;
          System.out.println("hello");
      }
 }
-
+// A final method cannot be overridden.
+// But it can be inherited.
 class A extends Q1{
     public static void main(String[] args) {
       m2();
