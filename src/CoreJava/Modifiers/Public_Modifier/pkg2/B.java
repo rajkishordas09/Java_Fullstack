@@ -1,4 +1,4 @@
-package CoreJava.Modifiers.Public_Modifier.pkg1.pkg2;
+package CoreJava.Modifiers.Public_Modifier.pkg2;
 
 import CoreJava.Modifiers.Public_Modifier.pkg1.A;
 
@@ -7,6 +7,7 @@ import CoreJava.Modifiers.Public_Modifier.pkg1.A;
     public static void main(String[] args) {
         A a1=new A();
         a1.m1();
+        A.m2();
 
         B b = new B();
         b.m1();

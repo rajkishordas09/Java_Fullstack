@@ -1,4 +1,4 @@
-package CoreJava.Modifiers.Public_Modifier.pkg1.pkg2;
+package CoreJava.Modifiers.Public_Modifier.pkg2;
 
  class C {
     public static void main(String[] args) {
