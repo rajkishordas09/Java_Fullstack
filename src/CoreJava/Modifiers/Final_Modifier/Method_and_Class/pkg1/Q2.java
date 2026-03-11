@@ -5,7 +5,7 @@ public final class Q2 {
     static int b ;
     public static void main(String[] args) {
         b = 200;
-        System.out.println(b);
+        System.out.println(Q2.b);
 
         Q2 q = new Q2();
         q.a = 100;
