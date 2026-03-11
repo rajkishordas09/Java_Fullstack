@@ -2,7 +2,7 @@ package CoreJava.Modifiers.Final_Modifier.Variables.Final_instance_Variables;
 
 public class Q1 {
     final int a = 20;
-
+//    final variable = constant
     void m1(){
         System.out.println(a);
     }
